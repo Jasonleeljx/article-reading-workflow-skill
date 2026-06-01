@@ -1,0 +1,69 @@
+/* Inline, low-noise collapsible Chinese translations.
+   Self-contained label/input toggle: no global id dependency, so every trigger works independently. */
+
+.markdown-rendered .translation-toggle,
+.markdown-preview-view .translation-toggle,
+.markdown-source-view.mod-cm6 .translation-toggle {
+  display: inline !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+.markdown-rendered .translation-checkbox,
+.markdown-preview-view .translation-checkbox,
+.markdown-source-view.mod-cm6 .translation-checkbox {
+  position: absolute !important;
+  opacity: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+  margin: 0 !important;
+  pointer-events: none !important;
+}
+
+.markdown-rendered .translation-label,
+.markdown-preview-view .translation-label,
+.markdown-source-view.mod-cm6 .translation-label {
+  display: inline !important;
+  cursor: pointer !important;
+  margin-left: 0.35em !important;
+  color: var(--text-faint) !important;
+  font-size: 0.72em !important;
+  font-weight: 400 !important;
+  opacity: 0.68 !important;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+}
+
+.markdown-rendered .translation-label:hover,
+.markdown-preview-view .translation-label:hover,
+.markdown-source-view.mod-cm6 .translation-label:hover {
+  color: var(--text-muted) !important;
+  opacity: 1 !important;
+}
+
+.markdown-rendered .translation-content,
+.markdown-preview-view .translation-content,
+.markdown-source-view.mod-cm6 .translation-content {
+  display: none !important;
+}
+
+.markdown-rendered .translation-checkbox:checked ~ .translation-content,
+.markdown-preview-view .translation-checkbox:checked ~ .translation-content,
+.markdown-source-view.mod-cm6 .translation-checkbox:checked ~ .translation-content {
+  display: block !important;
+  margin: 0.35rem 0 0.9rem 0 !important;
+  padding: 0 !important;
+  color: var(--text-muted) !important;
+  font-size: 0.95rem !important;
+  font-weight: 400 !important;
+  line-height: 1.75 !important;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  cursor: text !important;
+}

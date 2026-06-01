@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1900" height="1180" viewBox="0 0 1900 1180">
+  <defs>
+    <style>
+      .bg { fill: #fff; }
+      .center { fill: #fff; stroke: #26323d; stroke-width: 2.5; }
+      .main { fill: #fff; stroke-width: 2.2; }
+      .sub { fill: #fff; stroke-width: 1.6; }
+      .line { fill: none; stroke-width: 2.5; stroke-linecap: round; }
+      .thin { fill: none; stroke-width: 1.8; stroke-linecap: round; }
+      .logic { fill: none; stroke: #9aa4ad; stroke-width: 2; stroke-dasharray: 7 7; marker-end: url(#arrowGray); }
+      .logicText { font: 500 17px -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; fill: #6b747d; }
+      .title { font: 750 28px -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; fill: #1f2933; }
+      .mainText { font: 700 23px -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; fill: #202a33; }
+      .subText { font: 450 18px -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; fill: #47525d; }
+      .noteText { font: 500 17px -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; fill: #58636e; }
+    </style>
+    <marker id="arrowGray" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#9aa4ad" />
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1900" height="1180"/>
+
+  <rect class="center" x="70" y="488" rx="24" width="355" height="165"/>
+  <text class="title" x="247" y="535" text-anchor="middle">文章主线</text>
+  <text class="title" x="247" y="578" text-anchor="middle">中心论点</text>
+  <text class="title" x="247" y="621" text-anchor="middle">如何展开</text>
+
+  <g id="n1">
+    <path class="line" stroke="#5B8DEF" d="M425 535 C520 245 655 165 790 140"/>
+    <rect class="main" stroke="#5B8DEF" x="790" y="82" rx="16" width="430" height="116"/>
+    <text class="mainText" x="1005" y="125" text-anchor="middle">一、开篇切口</text>
+    <text class="subText" x="1005" y="158" text-anchor="middle">用一个具体场景引出问题</text>
+    <rect class="sub" stroke="#B7CCF5" x="1290" y="70" rx="12" width="360" height="54"/>
+    <text class="subText" x="1470" y="104" text-anchor="middle">关键事实 / 例子 A</text>
+    <rect class="sub" stroke="#B7CCF5" x="1290" y="146" rx="12" width="360" height="54"/>
+    <text class="subText" x="1470" y="180" text-anchor="middle">关键事实 / 例子 B</text>
+  </g>
+
+  <g id="n2">
+    <path class="line" stroke="#58A55C" d="M425 553 C535 345 660 304 790 300"/>
+    <rect class="main" stroke="#58A55C" x="790" y="242" rx="16" width="430" height="116"/>
+    <text class="mainText" x="1005" y="285" text-anchor="middle">二、背景铺垫</text>
+    <text class="subText" x="1005" y="318" text-anchor="middle">解释为什么这个问题重要</text>
+    <rect class="sub" stroke="#B8DDBA" x="1290" y="230" rx="12" width="360" height="54"/>
+    <text class="subText" x="1470" y="264" text-anchor="middle">历史背景 / 数据</text>
+    <rect class="sub" stroke="#B8DDBA" x="1290" y="306" rx="12" width="360" height="54"/>
+    <text class="subText" x="1470" y="340" text-anchor="middle">约束条件 / 反差</text>
+  </g>
+
+  <g id="n3">
+    <path class="line" stroke="#D99A2B" d="M425 570 C545 470 665 454 790 458"/>
+    <rect class="main" stroke="#D99A2B" x="790" y="400" rx="16" width="430" height="116"/>
+    <text class="mainText" x="1005" y="443" text-anchor="middle">三、收窄焦点</text>
+    <text class="subText" x="1005" y="476" text-anchor="middle">把宏观问题落到具体对象</text>
+    <rect class="sub" stroke="#EBCB8B" x="1290" y="388" rx="12" width="360" height="54"/>
+    <text class="subText" x="1470" y="422" text-anchor="middle">对象 / 地点 / 群体</text>
+    <rect class="sub" stroke="#EBCB8B" x="1290" y="464" rx="12" width="360" height="54"/>
+    <text class="subText" x="1470" y="498" text-anchor="middle">具体影响</text>
+  </g>
+
+  <g id="n4">
+    <path class="line" stroke="#8B6FD6" d="M425 590 C548 650 665 660 790 646"/>
+    <rect class="main" stroke="#8B6FD6" x="790" y="588" rx="16" width="430" height="116"/>
+    <text class="mainText" x="1005" y="631" text-anchor="middle">四、核心转折</text>
+    <text class="subText" x="1005" y="664" text-anchor="middle">提出变化、反例或新力量</text>
+    <rect class="sub" stroke="#C6B8EA" x="1290" y="576" rx="12" width="360" height="54"/>
+    <text class="subText" x="1470" y="610" text-anchor="middle">新证据</text>
+    <rect class="sub" stroke="#C6B8EA" x="1290" y="652" rx="12" width="360" height="54"/>
+    <text class="subText" x="1470" y="686" text-anchor="middle">因果机制</text>
+  </g>
+
+  <g id="n5">
+    <path class="line" stroke="#26A69A" d="M425 608 C540 800 665 822 790 814"/>
+    <rect class="main" stroke="#26A69A" x="790" y="756" rx="16" width="430" height="116"/>
+    <text class="mainText" x="1005" y="799" text-anchor="middle">五、影响扩散</text>
+    <text class="subText" x="1005" y="832" text-anchor="middle">说明变化如何影响更大范围</text>
+    <rect class="sub" stroke="#9DD8D2" x="1290" y="744" rx="12" width="360" height="54"/>
+    <text class="subText" x="1470" y="778" text-anchor="middle">连锁反应 A</text>
+    <rect class="sub" stroke="#9DD8D2" x="1290" y="820" rx="12" width="360" height="54"/>
+    <text class="subText" x="1470" y="854" text-anchor="middle">连锁反应 B</text>
+  </g>
+
+  <g id="n6">
+    <path class="line" stroke="#E06C75" d="M425 626 C530 980 665 1030 790 1010"/>
+    <rect class="main" stroke="#E06C75" x="790" y="952" rx="16" width="430" height="116"/>
+    <text class="mainText" x="1005" y="995" text-anchor="middle">六、结尾收束</text>
+    <text class="subText" x="1005" y="1028" text-anchor="middle">回扣开头，给出判断或悖论</text>
+    <rect class="sub" stroke="#F0B6BB" x="1290" y="940" rx="12" width="360" height="54"/>
+    <text class="subText" x="1470" y="974" text-anchor="middle">短期结论</text>
+    <rect class="sub" stroke="#F0B6BB" x="1290" y="1016" rx="12" width="360" height="54"/>
+    <text class="subText" x="1470" y="1050" text-anchor="middle">长期问题 / 余味</text>
+  </g>
+
+  <path class="thin" stroke="#5B8DEF" d="M1220 122 C1245 100 1265 96 1290 97"/>
+  <path class="thin" stroke="#5B8DEF" d="M1220 160 C1245 176 1265 174 1290 173"/>
+  <path class="thin" stroke="#58A55C" d="M1220 282 C1245 260 1265 258 1290 257"/>
+  <path class="thin" stroke="#58A55C" d="M1220 320 C1245 334 1265 333 1290 333"/>
+  <path class="thin" stroke="#D99A2B" d="M1220 440 C1245 418 1265 416 1290 415"/>
+  <path class="thin" stroke="#D99A2B" d="M1220 476 C1245 492 1265 492 1290 491"/>
+  <path class="thin" stroke="#8B6FD6" d="M1220 628 C1245 606 1265 604 1290 603"/>
+  <path class="thin" stroke="#8B6FD6" d="M1220 666 C1245 682 1265 681 1290 679"/>
+  <path class="thin" stroke="#26A69A" d="M1220 796 C1245 774 1265 772 1290 771"/>
+  <path class="thin" stroke="#26A69A" d="M1220 834 C1245 850 1265 849 1290 847"/>
+  <path class="thin" stroke="#E06C75" d="M1220 992 C1245 970 1265 968 1290 967"/>
+  <path class="thin" stroke="#E06C75" d="M1220 1030 C1245 1046 1265 1045 1290 1043"/>
+
+  <path class="logic" d="M1005 198 L1005 242"/>
+  <text class="logicText" x="1024" y="226">由具体切口 → 铺开背景</text>
+  <path class="logic" d="M1005 358 L1005 400"/>
+  <text class="logicText" x="1024" y="386">由大背景 → 收窄到关键对象</text>
+  <path class="logic" d="M1005 516 L1005 588"/>
+  <text class="logicText" x="1024" y="555">由问题陈述 → 引出核心转折</text>
+  <path class="logic" d="M1005 704 L1005 756"/>
+  <text class="logicText" x="1024" y="735">由转折机制 → 展示外溢影响</text>
+  <path class="logic" d="M1005 872 L1005 952"/>
+  <text class="logicText" x="1024" y="918">由扩散结果 → 回到总体判断</text>
+
+  <text class="noteText" x="70" y="735">阅读线索：</text>
+  <text class="noteText" x="70" y="765">开篇切口 → 背景铺垫 → 收窄焦点 → 核心转折 → 影响扩散 → 结尾收束</text>
+</svg>

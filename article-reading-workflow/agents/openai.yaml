@@ -1,0 +1,3 @@
+display_name: Article Reading Workflow
+short_description: Article reading notes, translations, highlight comments, review cards, and mind maps
+default_prompt: Use article-reading-workflow to format an article note, translate it naturally into Chinese, comment on highlights, sync review cards, or generate a minimalist article-structure mind map.
